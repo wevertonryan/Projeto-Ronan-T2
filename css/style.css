@@ -1,3 +1,48 @@
-body {
-    background-color: blue;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--text-color);
 }
+h1 {
+    font-size: 60px;
+}
+header, footer {
+    text-align: center;
+    background: linear-gradient(black,rgba(0, 0, 0, 0));
+    height: auto;
+}
+header h1 {
+    font-size: 70px; 
+    font-family: 'Sansation', sans-serif; 
+    font-style: italic; 
+    font-weight: 200;
+    padding-top: 50px;
+    padding-bottom: 20px; 
+}
+header li {
+    display: inline;
+    list-style: none;
+    padding: 15px;
+    flex-grow: 1;
+}
+header li:nth-child(1) {
+    background: linear-gradient(to bottom, var(--text-color) 1px, #0000 1px);
+}
+header li{
+    background: linear-gradient(to bottom, var(--text-color) 0%, #0000 0%);
+    transition: background 0.5s;
+}
+header li:hover {
+    background: linear-gradient(to bottom, var(--text-color) 100%, #0000 100%)
+}
+body {
+    background-image: url('../img/wall-e.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+

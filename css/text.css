@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sansation');
+
+:root {
+    --primary-color: #151875;
+    --secondary-color: #AE5E53;
+    --tertiary-color: #171423;
+    --text-color: #D6E1F5;
+    --invalid-color: #d6e1f5cb;
+}
