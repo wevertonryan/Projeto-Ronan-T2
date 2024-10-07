@@ -26,6 +26,9 @@ header, footer {
     background: linear-gradient(black,rgba(0, 0, 0, 0));
     height: auto;
 }
+footer {
+    height: 100px;
+}
 a:link {
     text-decoration: none;
     cursor: pointer;
@@ -89,7 +92,7 @@ header button:hover {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    height: 500px;
+    height: 35vw;
 }
 .cartaz {
     display: flex;
@@ -97,8 +100,7 @@ header button:hover {
     overflow: hidden;
     border-radius: 5px;
     height: 90%;
-    min-width: 285px;
-    max-width: 285px;
+    width: 35vw;
     margin: 7px;
     background-color: blue;
     box-shadow: 5px 2px 5px var(--tertiary-color);
@@ -112,4 +114,51 @@ header button:hover {
     scale: 1.05;
     border: solid 3px white;
     box-shadow: 5px 2px 15px #0000;
+}
+.opcao_secao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 370px;
+}
+.opcao_secao div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-position-x: center;
+    background-size: cover;
+}
+.opcao_secao div a {
+    height: 100%; 
+    width: 100%;
+}
+.opcao_secao div a div {
+    height: 100%; 
+    width: 100%; 
+    mix-blend-mode: color;
+}
+.opcao_secao div a div h2 {
+    font-family: 'Economica', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    mix-blend-mode: normal;
+}
+.opcao_list {
+    background-image: url('../img/list_img.jpg');
+}
+.opcao_list a div{
+    background-color: var(--secondary-color);
+}
+.opcao_list a div h2{
+    color: var(--tertiary-color);  
+}
+.opcao_arm {
+    background-image: url('../img/arm_img.jpg');
+}
+.opcao_arm a div{
+    background-color: var(--primary-color); 
 }
