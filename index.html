@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/text.css" />
-    <link rel="icon" href="img/Logo_icon_white.png" />
+    <link rel="icon" href="img/Logo_icon.png" />
     <title>DREAM</title>
   </head>
   <body>
     <header>
-      <h1>DREAM</h1>
+      <h1><a href="index.html">DREAM</a></h1>
       <div
         style="height: 1px; background-color: var(--invalid-color); transform: translateZ(1px)"
       ></div>
       <div style="display: flex; justify-content: center; height: auto;">
-        <ol style="display: flex; align-items: center; justify-content: space-around; width: 850px; min-width: 400px; height: auto;">
-          <li>HOME</li>
-          <li>LIST</li>
-          <li>ARM</li>
-          <li>SOBRE</li>
-        </ol>
+        <div class="menu">
+          <a href="index.html"><button class="select">HOME</button></a>
+          <a href="secoes/secao list/lista.html"><button>LIST</button></a>
+          <a href="secoes/secao arm/armazem.html"><button>ARM</button></a>
+          <a href="sobre/sobre.html"><button>SOBRE</button></a>
+        </div>
       </div>
     </header>
     <main>
@@ -28,7 +28,28 @@
         <h1 style="margin: 30px;">Bem-vindo</h1>
         <p style="width: 70%; text-align: center; margin: 20px; max-width: 1200px; min-width: 700px;">Seja bem-vindo ao nosso site, um espaço dedicado a compartilhar a paixão por filmes que nos inspiram e emocionam! Aqui, você encontrará uma lista cuidadosamente selecionada das obras que mais amamos, abrangendo diversos gêneros e estilos. Cada filme é acompanhado de uma breve sinopse e recomendações pessoais, permitindo que você descubra novas histórias e reviva clássicos. Nossa missão é criar uma comunidade de amantes do cinema, onde podemos trocar dicas e opiniões, celebrando juntos a magia da sétima arte. Venha explorar e se deixar envolver pelo mundo dos filmes que nos tocam!</p>
       </div>
-      <div alt="recomendações de filmes"></div>
+      <div class="carrossel" alt="recomendações de filmes">
+        <div style="display: flex; justify-content: flex-start; align-items: flex-end; height: 120px;"><h2>Recomendações de Filmes</h2></div> 
+        <div class="sub_carro">
+          <div class="cartaz"><img src="img/wall-e.jpg"></div>
+          <div class="cartaz"><img src="img/deadpool.jpg"></div>
+          <div class="cartaz"><img src="img/wall-e.jpg"></div>
+          <div class="cartaz"><img src="img/deadpool.jpg"></div>
+          <div class="cartaz"><img src="img/wall-e.jpg"></div>
+          <div class="cartaz"><img src="img/deadpool.jpg"></div>
+          <div class="cartaz"><img src="img/wall-e.jpg"></div>
+          <div class="cartaz"><img src="img/deadpool.jpg"></div>
+          <div class="cartaz"><img src="img/wall-e.jpg"></div>
+          <div class="cartaz"><img src="img/deadpool.jpg"></div>
+          <div class="cartaz"><img src="img/wall-e.jpg"></div>
+          <div class="cartaz"><img src="img/deadpool.jpg"></div>
+          <div class="cartaz"><img src="img/wall-e.jpg"></div>
+          <div class="cartaz"><img src="img/deadpool.jpg"></div>
+        </div>
+        <!--div class="sub_carro">
+          <div class="imagem"><img src="img/wall-e.jpg"></div>
+        </div-->
+      </div>
       <div></div>
     </main>
     <footer></footer>

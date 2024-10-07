@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de Imagens</title>
+    <style>
+        /* CSS */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .carrossel {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .imagens {
+            display: flex;
+            animation: scroll 12s infinite alternate;
+        }
+
+        .imagem {
+            min-width: 100%;
+        }
+
+        .imagem img {
+            width: 100%;
+            display: block;
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            33.33% { transform: translateX(0); }
+            36.67% { transform: translateX(-100%); }
+            69.67% { transform: translateX(-100%); }
+            73.33% { transform: translateX(-200%); }
+            100% { transform: translateX(-200%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="carrossel">
+        <div class="imagens">
+            <div class="imagem"><img src="img/Logo_icon.png" alt="Imagem 1"></div>
+            <div class="imagem"><img src="img/Logo_icon_white.png" alt="Imagem 2"></div>
+            <div class="imagem"><img src="img/wall-e.jpg" alt="Imagem 3"></div>
+        </div>
+    </div>
+</body>
+</html>
