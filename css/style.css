@@ -99,9 +99,17 @@ header button:hover {
     height: 90%;
     min-width: 285px;
     max-width: 285px;
-    margin: 5px;
+    margin: 7px;
     background-color: blue;
+    box-shadow: 5px 2px 5px var(--tertiary-color);
+    border: solid 0px white;
+    transition: 0.3s;
 }
 .cartaz img {
     height: 100%;
+}
+.cartaz:hover {
+    scale: 1.05;
+    border: solid 3px white;
+    box-shadow: 5px 2px 15px #0000;
 }
