@@ -31,12 +31,8 @@ header li {
 header li:nth-child(1) {
     background: linear-gradient(to bottom, var(--text-color) 1px, #0000 1px);
 }
-header li{
-    background: linear-gradient(to bottom, var(--text-color) 0%, #0000 0%);
-    transition: background 0.5s;
-}
 header li:hover {
-    background: linear-gradient(to bottom, var(--text-color) 100%, #0000 100%)
+    animation: secao 0.3s ease forwards;
 }
 body {
     background-image: url('../img/wall-e.jpg');
@@ -46,3 +42,13 @@ body {
     background-position-x: center;
 }
 
+@keyframes secao {
+    from {
+        background-color: #0000;
+        color: var(--text-color);        
+    }
+    to {
+        background-color: var(--text-color);
+        color: var(--tertiary-color);
+    }
+}
