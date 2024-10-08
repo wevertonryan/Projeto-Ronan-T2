@@ -190,7 +190,8 @@ header button:hover {
     width: 30%;
     min-width: 300px;
 }
-.sobre div {
+.sobre div {    
+    width: auto;
     margin-block: 50px;
     margin-top: 100px;
 }
@@ -210,6 +211,10 @@ header button:hover {
     height: 35vw;    
     border: solid white 0px;
     transition: 0.3s;
+}
+.nome{
+    max-width: 300px;
+    min-width: 0px;
 }
 .sobre div a img:hover {
     transform: scale(1.05);
