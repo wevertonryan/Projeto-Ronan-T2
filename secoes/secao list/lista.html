@@ -8,15 +8,16 @@
     <link id="favicon" rel="icon" href="../../img/icone/Logo_icon.png" />
     <title>DREAM - Lista</title>
   </head>
-  <body style="background: #505e79;">
-    <header style="background-color: var(--tertiary-color);">
+  <body style="background: #505e79">
+    <header style="background-color: var(--tertiary-color)">
       <h1><a href="../../index.html">DREAM</a></h1>
       <div
         style="
           height: 1px;
           background-color: var(--invalid-color);
           transform: translateZ(1px);
-        "></div>
+        "
+      ></div>
       <div style="display: flex; justify-content: center; height: auto">
         <div class="menu">
           <a href="../../index.html"><button>HOME</button></a>
@@ -26,18 +27,70 @@
         </div>
       </div>
     </header>
-    <main style="display: flex; justify-content: center; height: 100vh;">
+    <main style="display: flex; justify-content: center; height: auto">
       <div class="lista">
-        <h1>Lista</h1>
-        <div class="item">
+        <div>
+          <h1>Lista</h1>
+          <div style="height: 2px; background-color: var(--text-color)"></div>
+        </div>
+        <div class="item" style="height: 50px">
+          <div class="rank"><p>Rank</p></div>
+          <div class="rank item_img"><p>Imagem</p></div>
+          <div class="rank" style="width: calc(75% - 100px)">
+            <p>Descrição</p>
+          </div>
+          <div class="nota"><p>Nota</p></div>
+          <div class="detalhe"></div>
+        </div>
+        <div class="item" alt="Kung-fu Panda">
           <div class="rank" alt="rank"><h1>1</h1></div>
-          <img src="../../img/carros.jpg" alt="carros">
+          <img src="../../img/kung fu panda.jpg" class="item_img">
+          <div class="description" alt="description">
+            <h2>Kung-fu Panda</h2>
+            <p>Dreamworks</p>
+          </div>
+          <div class="nota" alt="nota"><h2>73</h2></div>
+          <a href="kung-fu-panda.html"><div class="detalhe"></div></a>
+        </div>
+        <div class="item" alt="carros">
+          <div class="rank" alt="rank"><h1>2</h1></div>
+          <img src="../../img/carros.jpg" class="item_img">
           <div class="description" alt="description">
             <h2>Carros</h2>
-            <p>Pixar | Comédia, Romance, Ação | L</p>
+            <p>Pixar</p>
           </div>
-          <div class="nota" alt="nota"></div>
+          <div class="nota" alt="nota"><h2>70</h2></div>
           <a href="carros.html"><div class="detalhe"></div></a>
+        </div>
+        <div class="item" alt="Homem de Ferro">
+          <div class="rank" alt="rank"><h1>3</h1></div>
+          <img src="../../img/homem de ferro.jpg" class="item_img">
+          <div class="description" alt="description">
+            <h2>Homem de Ferro</h2>
+            <p>Marvel</p>
+          </div>
+          <div class="nota" alt="nota"><h2>76</h2></div>
+          <a href="homem-de-ferro.html"><div class="detalhe"></div></a>
+        </div>
+        <div class="item" alt="Homem Aranha">
+          <div class="rank" alt="rank"><h1>4</h1></div>
+          <img src="../../img/homem aranha.jpg" class="item_img">
+          <div class="description" alt="description">
+            <h2>Homem Aranha</h2>
+            <p>Marvel</p>
+          </div>
+          <div class="nota" alt="nota"><h2>73</h2></div>
+          <a href="homem-aranha.html"><div class="detalhe"></div></a>
+        </div>
+        <div class="item" alt="Deadpool">
+          <div class="rank" alt="rank"><h1>5</h1></div>
+          <img src="../../img/deadpool.jpg" class="item_img">
+          <div class="description" alt="description">
+            <h2>Deadpool</h2>
+            <p>Marvel</p>
+          </div>
+          <div class="nota" alt="nota"><h2>76</h2></div>
+          <a href="deadpool.html"><div class="detalhe"></div></a>
         </div>
       </div>
     </main>

@@ -85,7 +85,8 @@ header button:hover {
 
 .carrossel {
     background: linear-gradient(white 25%, transparent 90%);
-    height: 700px;
+    margin-bottom: 70px;
+    height: auto;
 }
 .carrossel h2 {
     color: var(--tertiary-color);
@@ -126,7 +127,7 @@ header button:hover {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    height: 370px;
+    height: 30vw;
 }
 .opcao_secao div {
     display: flex;
@@ -135,11 +136,11 @@ header button:hover {
     width: 50%;
     height: 100%;
     background-position: center 10%;
-    background-size: 800px;
+    background-size: 110%;
     transition: 0.3s;
 }
 .opcao_secao div:hover {
-    background-size: 750px;
+    background-size: 105%;
 }
 .opcao_secao div a {
     height: 100%; 
@@ -217,6 +218,7 @@ header button:hover {
 .lista {
     width: 70%;
     margin-block: 3px;
+    padding-block: 20px;
     background-color: var(--tertiary-color);
     text-align: center;
 }
@@ -238,10 +240,12 @@ header button:hover {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background: linear-gradient(to bottom, var(--text-color) 1%, #0000 1%, #0000 99%, var(--text-color) 99%);
+    background: linear-gradient(to bottom,#0000 calc(100% - 2px), var(--text-color) calc(100% - 2px));
 }
-.item img {
+.item_img {
     height: 100%;
+    max-width: 100px;
+    width: 100px;
     border-inline: solid 2px var(--text-color);
 }
 .rank {
@@ -249,7 +253,7 @@ header button:hover {
     justify-content: center;
     align-items: center;
     height: 100%;
-    flex-grow: 1.2;
+    width: 10%;
     min-width: 100px;
 }
 .rank h1, h2, h3 {
@@ -258,20 +262,30 @@ header button:hover {
 .description {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    white-space: nowrap;
     justify-content: space-between;
-    flex-grow: 6;
+    width: calc(75% - 100px);
     height: 100%;
     text-align: left;
 }
 .description h2, p {
     margin: 15px;
-    margin-left: 20px;
+    margin-left: 23px;
+    width: fit-content;
 }
 .description h2 {
     margin-top: 27px;
     margin-bottom: 10px;
 }
 .nota{
-    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
     height: 100%;
+    border-left: solid 2px var(--text-color);
+}
+.nota h2{
+    font-size: 60px;
 }
