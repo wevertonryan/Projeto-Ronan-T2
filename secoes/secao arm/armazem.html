@@ -6,17 +6,18 @@
     <link rel="stylesheet" href="../../css/style.css" />
     <link rel="stylesheet" href="../../css/text.css" />
     <link id="favicon" rel="icon" href="../../img/icone/Logo_icon.png" />
-    <title>DREAM - Lista</title>
+    <title>DREAM - Armazém</title>
   </head>
-  <body>
-    <header>
+  <body class="armazem" style="background: var(--invalid-color)">
+    <header style="background-color: var(--tertiary-color)">
       <h1><a href="../../index.html">DREAM</a></h1>
       <div
         style="
           height: 1px;
           background-color: var(--invalid-color);
           transform: translateZ(1px);
-        "></div>
+        "
+      ></div>
       <div style="display: flex; justify-content: center; height: auto">
         <div class="menu">
           <a href="../../index.html"><button>HOME</button></a>
@@ -26,5 +27,72 @@
         </div>
       </div>
     </header>
+    <main style="display: flex; justify-content: center; height: auto">
+      <div class="lista">
+        <div>
+          <h1>Armazém</h1>
+          <div style="height: 2px; background-color: var(--text-color)"></div>
+        </div>
+        <div class="item" style="height: 50px">
+          <div class="rank"><p>Rank</p></div>
+          <div class="rank item_img"><p>Imagem</p></div>
+          <div class="rank" style="width: calc(75% - 100px)">
+            <p>Descrição</p>
+          </div>
+          <div class="nota"><p>Nota</p></div>
+          <div class="detalhe"></div>
+        </div>
+        <div class="item" alt="Kung-fu Panda">
+          <div class="rank" alt="rank"><h1>1</h1></div>
+          <img src="../../img/Speed Racer.jpg" class="item_img">
+          <div class="description" alt="description">
+            <h2>Speed Racer</h2>
+            <p>Warner Bros</p>
+          </div>
+          <div class="nota" alt="nota"><h2>63</h2></div>
+          <a href="speed-racer.html"><div class="detalhe"></div></a>
+        </div>
+        <div class="item" alt="carros">
+          <div class="rank" alt="rank"><h1>2</h1></div>
+          <img src="../../img/Toy Story 3.jpg" class="item_img">
+          <div class="description" alt="description">
+            <h2>Toy Story</h2>
+            <p>Pixar</p>
+          </div>
+          <div class="nota" alt="nota"><h2>80</h2></div>
+          <a href="toy-story.html"><div class="detalhe"></div></a>
+        </div>
+        <div class="item" alt="Homem de Ferro">
+          <div class="rank" alt="rank"><h1>3</h1></div>
+          <img src="../../img/De volta para o futuro.jpg" class="item_img">
+          <div class="description" alt="description">
+            <h2>De Volta para o futuro</h2>
+            <p>Amblin Entertainment</p>
+          </div>
+          <div class="nota" alt="nota"><h2>83</h2></div>
+          <a href="de-volta-para-o-futuro.html"><div class="detalhe"></div></a>
+        </div>
+        <div class="item" alt="Homem Aranha">
+          <div class="rank" alt="rank"><h1>4</h1></div>
+          <img src="../../img/Gigantes de Aço.jpg" class="item_img">
+          <div class="description" alt="description">
+            <h2>Gigantes de Aço</h2>
+            <p>DreamWorks</p>
+          </div>
+          <div class="nota" alt="nota"><h2>70</h2></div>
+          <a href="gigantes-de-aco.html"><div class="detalhe"></div></a>
+        </div>
+        <div class="item" alt="Deadpool">
+          <div class="rank" alt="rank"><h1>5</h1></div>
+          <img src="../../img/Herbie.jpg" class="item_img">
+          <div class="description" alt="description">
+            <h2>Herbie</h2>
+            <p>Disney</p>
+          </div>
+          <div class="nota" alt="nota"><h2>58</h2></div>
+          <a href="herbie.html"><div class="detalhe"></div></a>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

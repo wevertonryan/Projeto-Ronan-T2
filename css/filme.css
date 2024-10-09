@@ -1,0 +1,59 @@
+.topo {
+    background-position-x: 10%;
+    background-size: 120%;
+    height: 70vh;
+    min-width: 650px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), #0000);
+    height: 100%;
+    width: 50%;
+}
+.logo img {
+    margin: 40px;
+    width: 60%;
+}
+.conteudo {
+    display: flex;
+    background-color: var(--tertiary-color);
+}
+.conteudo div {
+   height: 100%;
+   padding: 30px; 
+}
+.conteudo div h1, p{
+    margin: 10px;
+    margin-block: 30px;
+    width: fit-content;
+}
+.informacoes {
+    width: 30%;
+}
+.opiniao {
+    width: 70%;
+    border-left: solid 2px var(--text-color);
+}
+
+.kung-fu-panda {
+    background-image: url(../img/fundo-filme/kung-fu-panda/fundo.jpg);
+    background-position-y: 10%;
+}
+.carros {
+    background-image: url(../img/fundo-filme/carros/fundo.jpg);
+    background-position-y: center;
+}
+.deadpool {
+    background-image: url(../img/fundo-filme/deadpool/fundo.jpg);
+    background-position-y: center;
+}
+.homem-aranha {
+    background-image: url(../img/fundo-filme/homem-aranha/fundo.jpg);
+    background-position-y: center;
+}
+.homem-de-ferro {
+    background-image: url(../img/fundo-filme/homem-de-ferro/fundo.jpg);
+    background-position: right;
+    background-position-y: 20%;
+}

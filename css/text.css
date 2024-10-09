@@ -8,3 +8,35 @@
     --text-color: #D6E1F5;
     --invalid-color: #d6e1f58a;
 }
+.armazem {
+    --primary-color: #151875;
+    --secondary-color: #151875;
+    --tertiary-color: #AE5E53;
+    --text-color: #171423;
+    --invalid-color:#0b0c35;
+}
+.kung-fu-panda {
+    --tertiary-color: #311c10;
+    --text-color: #fdfbeb;
+    --invalid-color: #90856e;
+}
+.carros {
+    --tertiary-color: #490404;
+    --text-color: #D6E1F5;
+    --invalid-color: #031428;
+}
+.deadpool {
+    --tertiary-color: #ce152d;
+    --text-color: #ffffff;
+    --invalid-color: #959398; 
+}
+.homem-aranha {
+    --tertiary-color: #1c0e48;
+    --text-color: #fcfbf3;
+    --invalid-color: #fcfbf37c; 
+}  
+.homem-de-ferro {
+    --tertiary-color: #5e1411;
+    --text-color: #fff1a9;
+    --invalid-color: #fff1a980; 
+}

@@ -1,10 +1,13 @@
-let tema = ""
+let tema = "";
+let icone_branco = "";
+let icone_preto = "",
 const temaEscuro = window.matchMedia('(prefers-color-scheme: dark)').matches;
     
     if (temaEscuro) {
-      tema = "img/icone/Logo_icon_white.png"
+      tema = icone_branco;
     } else {
-      tema = "img/icone/Logo_icon.png"
+      tema = icone_preto;
     }
 
+    console.log(icone_branco);
     document.getElementById("favicon").setAttribute("href", tema);
