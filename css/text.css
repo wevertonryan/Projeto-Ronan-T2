@@ -40,3 +40,29 @@
     --text-color: #fff1a9;
     --invalid-color: #fff1a980; 
 }
+
+.speed-racer {
+    --tertiary-color: #f3f3f5;
+    --text-color: #ff2d2e;
+    --invalid-color: #837d90; 
+}
+.toy-story {
+    --tertiary-color: #c62036;
+    --text-color: #fdee5c;
+    --invalid-color: #17509a;
+}
+.de-volta-para-o-futuro {
+    --tertiary-color: #0d1c57;
+    --text-color: #f1c224;
+    --invalid-color: #dd4b21; 
+}
+.gigantes-de-aco {
+    --tertiary-color: #100f14;
+    --text-color: #e8f2f8;
+    --invalid-color: #99e4e8; 
+}
+.herbie {
+    --tertiary-color: #f5f1f2;
+    --text-color: #223f89;
+    --invalid-color: #e83e23; 
+}

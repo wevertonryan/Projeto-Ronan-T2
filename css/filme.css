@@ -1,6 +1,6 @@
 .topo {
     background-position-x: 10%;
-    background-size: 120%;
+    background-size: cover;
     height: 70vh;
     min-width: 650px;
 }
@@ -33,11 +33,12 @@
 }
 .opiniao {
     width: 70%;
-    border-left: solid 2px var(--text-color);
+    border-left: solid 2px var(--invalid-color);
 }
 
 .kung-fu-panda {
     background-image: url(../img/fundo-filme/kung-fu-panda/fundo.jpg);
+    background-size: 120%;
     background-position-y: 10%;
 }
 .carros {
@@ -46,14 +47,40 @@
 }
 .deadpool {
     background-image: url(../img/fundo-filme/deadpool/fundo.jpg);
+    background-size: 120%;
     background-position-y: center;
 }
 .homem-aranha {
     background-image: url(../img/fundo-filme/homem-aranha/fundo.jpg);
-    background-position-y: center;
+    background-position-y: 30%;
 }
 .homem-de-ferro {
     background-image: url(../img/fundo-filme/homem-de-ferro/fundo.jpg);
     background-position: right;
     background-position-y: 20%;
+}
+
+.speed-racer {
+    background-image: url(../img/fundo-filme/speed-racer/fundo.jpg);
+    background-position-y: 60%;
+}
+.speed-racer .logo img{
+    width: 55%;
+}
+.toy-story {
+    background-image: url(../img/fundo-filme/toy-story/fundo.jpg);
+    background-position-y: center;
+}
+.de-volta-para-o-futuro {
+    background-image: url(../img/fundo-filme/de-volta-para-o-futuro/fundo.jpg);
+    background-size: 110%;
+    background-position-y: 20%;
+}
+.gigantes-de-aco {
+    background-image: url(../img/fundo-filme/gigantes-de-aco/fundo.jpg);
+    background-position-y: 10%;
+}
+.herbie {
+    background-image: url(../img/fundo-filme/herbie/fundo.jpg);
+    background-position-y: 30%;
 }
